@@ -1,0 +1,1 @@
+web: gunicorn creviz_backend.wsgi --log-file -

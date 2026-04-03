@@ -1,0 +1,68 @@
+/* ============================================================
+   DESIGN TOKENS — all colours, spacing and type in one place
+============================================================ */
+:root {
+  /* Brand colours */
+  --fire-orange:   #ff6b1a;
+  --fire-red:      #ff2d2d;
+  --fire-yellow:   #ffc93c;
+  --fire-orange-2: #ff8c42;
+
+  /* Background scale */
+  --bg-900: #080604;
+  --bg-800: #0c0a09;
+  --bg-700: #131008;
+  --bg-600: #181210;
+  --bg-500: #1f1612;
+  --bg-400: #242018;
+  --bg-300: #2a2420;
+  --bg-200: #332e28;
+  --bg-100: #3d3630;
+
+  /* Text */
+  --text-100: #f8f4f0;
+  --text-200: #e8e0d8;
+  --text-300: #c8bdb0;
+  --text-400: #9e9189;
+  --text-500: #6e6560;
+
+  /* Accent colours */
+  --green:    #4ade80;
+  --blue:     #60a5fa;
+  --purple:   #c084fc;
+  --red:      #f87171;
+  --teal:     #2dd4bf;
+
+  /* Gradients */
+  --grad-orange: linear-gradient(135deg, #ff6b1a, #ff2d2d);
+  --grad-hero:   linear-gradient(135deg, #ff6b1a 0%, #ff2d2d 50%, #c084fc 100%);
+  --grad-card:   linear-gradient(145deg, #1f1612, #131008);
+
+  /* Shadows */
+  --shadow-sm: 0 2px 8px rgba(0,0,0,0.4);
+  --shadow-md: 0 8px 24px rgba(0,0,0,0.5);
+  --shadow-lg: 0 20px 60px rgba(0,0,0,0.6);
+  --shadow-glow: 0 0 40px rgba(255,107,26,0.25);
+  --shadow-glow-sm: 0 0 20px rgba(255,107,26,0.15);
+
+  /* Border */
+  --border:       rgba(255,255,255,0.07);
+  --border-hover: rgba(255,107,26,0.4);
+
+  /* Border radius */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-xl:  32px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --trans-fast:   0.15s ease;
+  --trans-normal: 0.3s ease;
+  --trans-slow:   0.5s ease;
+
+  /* Layout */
+  --nav-h:       72px;
+  --container-w: 1280px;
+  --sidebar-w:   280px;
+}

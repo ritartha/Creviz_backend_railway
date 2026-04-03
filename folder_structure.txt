@@ -1,0 +1,28 @@
+frontend/
+|
+|-- index.html
+|-- marketplace.html
+|-- signin.html
+|-- signup.html
+|
+|-- css/
+|   |-- variables.css
+|   |-- base.css
+|   |-- navbar.css
+|   |-- hero.css
+|   |-- portfolio.css
+|   |-- marketplace.css
+|   |-- auth.css
+|   |-- footer.css
+|   |-- animations.css
+|
+|-- js/
+|   |-- api.js
+|   |-- auth.js
+|   |-- portfolio.js
+|   |-- marketplace.js
+|   |-- navbar.js
+|   |-- animations.js
+|
+|-- assets/
+    |-- logo.svg
