@@ -176,7 +176,6 @@ SIMPLE_JWT = {
     "AUTH_HEADER_TYPES":        ("Bearer",),
     "AUTH_TOKEN_CLASSES":       ("rest_framework_simplejwt.tokens.AccessToken",),
 }
-
 # ---------------------------------------------------------------------------
 # CORS
 # ---------------------------------------------------------------------------
@@ -197,6 +196,28 @@ if RAILWAY_PUBLIC_DOMAIN:
         CORS_ALLOWED_ORIGINS.append(railway_origin)
 
 CORS_ALLOW_CREDENTIALS = True
+
+# ⬇️ ADD THESE — they tell the browser which headers/methods are permitted
+CORS_ALLOW_HEADERS = [
+    "accept",
+    "accept-encoding",
+    "authorization",
+    "content-type",
+    "dnt",
+    "origin",
+    "user-agent",
+    "x-csrftoken",
+    "x-requested-with",
+]
+
+CORS_ALLOW_METHODS = [
+    "DELETE",
+    "GET",
+    "OPTIONS",
+    "PATCH",
+    "POST",
+    "PUT",
+]
 
 # ---------------------------------------------------------------------------
 # PRODUCTION SECURITY HARDENING (only when DEBUG is False)
