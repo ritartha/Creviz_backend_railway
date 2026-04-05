@@ -10,7 +10,7 @@ from rest_framework_simplejwt.views import (
 
 urlpatterns = [
     # Django admin panel
-    path("admin/", admin.site.urls),
+    path("boss/", admin.site.urls),
 
     # JWT endpoints (global shortcuts)
     path("api/auth/login/",   TokenObtainPairView.as_view(), name="token_obtain_pair"),
